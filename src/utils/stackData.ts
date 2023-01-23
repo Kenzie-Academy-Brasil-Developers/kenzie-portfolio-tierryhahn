@@ -4,6 +4,10 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
+import imgDjango from "../public/static/img/stack/djangologo.svg"
+import imgTypescript from "../public/static/img/stack/typescript.svg"
+import imgPython from "../public/static/img/stack/python.svg"
+
 
 export const stackData = [
   {
@@ -15,19 +19,31 @@ export const stackData = [
     img: imgCSS,
   },
   {
+    title: "Styled Components",
+    img: imgStyled,
+  },
+  {
     title: "JS",
     img: imgJS,
+  },
+  {
+    title: "React",
+    img: imgReact,
+  },
+  {
+    title: "Typescript",
+    img: imgTypescript,
   },
   {
     title: "Node JS",
     img: imgNode,
   },
   {
-    title: "Styled Components",
-    img: imgStyled,
+    title: "Python",
+    img: imgPython,
   },
   {
-    title: "React",
-    img: imgReact,
+    title: "Django",
+    img: imgDjango,
   },
 ];
